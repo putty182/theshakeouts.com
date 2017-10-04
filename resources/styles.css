@@ -13,6 +13,7 @@
 
 #main h1, h2, h3 { 
   font-family: 'AngryNerds', serif;
+  line-height: 0.8em;
 }
 
 #main a {
