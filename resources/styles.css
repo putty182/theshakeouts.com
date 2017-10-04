@@ -7,9 +7,9 @@
   height: 100vh;
 }
 
-#main h1 {
-  font-size: 20vw;
-}
+#main h1 { font-size: 20vw; }
+@media (min-width: 640px) { #main h1 { font-size: 15vh; } }
+@media (max-height: 400px) { #main h1 { font-size: 4em; } }
 
 #main h1, h2, h3 { 
   font-family: 'AngryNerds', serif;
@@ -57,4 +57,3 @@
 #bandcamp:before {
   background-image: url(bandcamp.jpg);
 }
-
