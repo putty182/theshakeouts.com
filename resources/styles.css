@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'AngryNerds';
+  src: url('https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/c50f7081cae7eeeab009ed0400b83b70c1111fd4/AngryNerds.ttf');
+}
+
+#main {
+  height: 100vh;
+}
+
+#main h1 {
+  font-size: 20vw;
+  max-font-size: 20vh;
+}
+
+#main h1, h2, h3 { 
+  font-family: 'AngryNerds', serif;
+}
+
+#main a {
+  color: #333;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+#main a:hover {
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#band-logo {
+  margin-top: 10vh;
+}
+
+#social-links a img {
+  height: 20vw;
+  width: 20vw;
+}
+
+#facebook:before,
+#unearthed:before,
+#bandcamp:before {
+  content: " ";
+  display: block;
+  width: auto;
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
+}
+
+#facebook:before {
+  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/ef6f95f5268a8622fab4aab0f29bbe3a3fe57b2a/facebook.svg);
+}
+#unearthed:before {
+  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/ef6f95f5268a8622fab4aab0f29bbe3a3fe57b2a/unearthedlogo.jpg);
+}
+#bandcamp:before {
+  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/41f8e0ef4ad2be1d792383238c0bc16941e6b329/bandcamp.jpg);
+}
+
