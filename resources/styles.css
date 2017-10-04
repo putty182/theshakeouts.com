@@ -8,8 +8,7 @@
 }
 
 #main h1 {
-  font-size: 20vw;
-  max-font-size: 20vh;
+  font-size: 20vh;
 }
 
 #main h1, h2, h3 { 
@@ -50,12 +49,12 @@
 }
 
 #facebook:before {
-  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/ef6f95f5268a8622fab4aab0f29bbe3a3fe57b2a/facebook.svg);
+  background-image: url(facebook.svg);
 }
 #unearthed:before {
-  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/ef6f95f5268a8622fab4aab0f29bbe3a3fe57b2a/unearthedlogo.jpg);
+  background-image: url(unearthedlogo.jpg);
 }
 #bandcamp:before {
-  background-image: url(https://cdn.rawgit.com/putty182/4bcee364e98f96f90400421c0d41ca67/raw/41f8e0ef4ad2be1d792383238c0bc16941e6b329/bandcamp.jpg);
+  background-image: url(bandcamp.jpg);
 }
 
