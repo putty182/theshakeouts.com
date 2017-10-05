@@ -39,6 +39,7 @@
 
 #facebook:before,
 #unearthed:before,
+#soundcloud:before,
 #bandcamp:before {
   content: " ";
   display: block;
