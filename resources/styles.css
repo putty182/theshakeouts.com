@@ -55,6 +55,9 @@
 #unearthed:before {
   background-image: url(unearthedlogo.jpg);
 }
+#soundcloud:before {
+  background-image: url(soundcloud.svg);
+}
 #bandcamp:before {
   background-image: url(bandcamp.jpg);
 }
