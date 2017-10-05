@@ -13,15 +13,13 @@
 }
 
 @media (max-height: 400px) { #main h1 { font-size: 4em; } }
-#main h1 { font-size: 20vw; }
-@media (min-width: 1440px){
-  #main h1 {
-      position: relative;
-      margin-left: 50%;
-      margin-bottom: 5vh;
-      display: table;
-      transform: translateX(-50%);
-  }
+#main h1 { 
+  font-size: 20vw
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 5vh;
+  display: table;
+  transform: translateX(-50%);
 }
 
 #main a {
