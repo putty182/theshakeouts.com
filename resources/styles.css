@@ -7,13 +7,21 @@
   height: 100vh;
 }
 
-#main h1 { font-size: 20vw; }
-/* @media (min-width: 640px) { #main h1 { font-size: 15vh; } } */
-@media (max-height: 400px) { #main h1 { font-size: 4em; } }
-
 #main h1, h2, h3 { 
   font-family: 'AngryNerds', serif;
   line-height: 0.8em;
+}
+
+@media (max-height: 400px) { #main h1 { font-size: 4em; } }
+#main h1 { font-size: 20vw; }
+@media (min-width: 1440px){
+  #main h1 {
+      position: relative;
+      margin-left: 50%;
+      margin-bottom: 5vh;
+      display: table;
+      transform: translateX(-50%);
+  }
 }
 
 #main a {
