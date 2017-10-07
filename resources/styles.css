@@ -12,16 +12,21 @@
   line-height: 0.8em;
 }
 
-@media (max-height: 400px) { #main h1 { font-size: 4em; } }
 #main h1 { 
-  font-size: 20vw
-  position: relative;
   margin-left: 50%;
   margin-bottom: 5vh;
   display: table;
   transform: translateX(-50%);
 }
-
+@media (max-height: 400px) { 
+  #main h1 { font-size: 4em; } 
+}
+@media (min-width: 400px) { 
+  #main h1 { font-size: 20vw; }
+}
+@media (min-width: 768px) {
+  #main h1 { font-size: 12em; }
+}
 #main a {
   color: #333;
   opacity: 1;
