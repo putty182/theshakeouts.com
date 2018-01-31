@@ -12,21 +12,6 @@
   line-height: 0.8em;
 }
 
-#main h1 { 
-  margin-left: 50%;
-  margin-bottom: 5vh;
-  display: table;
-  transform: translateX(-50%);
-}
-@media (max-height: 400px) { 
-  #main h1 { font-size: 4em; } 
-}
-@media (min-width: 400px) { 
-  #main h1 { font-size: 20vw; }
-}
-@media (min-width: 768px) {
-  #main h1 { font-size: 12em; }
-}
 #main a {
   color: #333;
   opacity: 1;
@@ -40,7 +25,30 @@
 }
 
 #band-logo {
-  margin-top: 10vh;
+    display: block;
+    content: ' ';
+    height: 15vw;
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+    top: 0;
+    background-image: url('/resources/the-shakeouts.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#band-logo h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
 }
 
 #social-links a img {
