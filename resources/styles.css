@@ -60,11 +60,11 @@
   background-image: url(facebook.svg);
 }
 #unearthed:before {
-  background-image: url(unearthedlogo.jpg);
+  background-image: url(unearthedlogo.svb);
 }
 #soundcloud:before {
   background-image: url(soundcloud.svg);
 }
 #bandcamp:before {
-  background-image: url(bandcamp.jpg);
+  background-image: url(bandcamp.svg);
 }
